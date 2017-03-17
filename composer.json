@@ -1,0 +1,17 @@
+{
+    "name": "jt/mns",
+    "description": "test",
+    "type": "aliyunSDK",
+    "require": {
+        "php":">=5.5.0",
+        "guzzlehttp/guzzle": "~6.2.1"
+    },
+    "autoload": {
+        "files": ["mns-autoloader.php"],
+        "psr-0": {
+            "jt": "./"
+        }
+    }
+
+}
+
